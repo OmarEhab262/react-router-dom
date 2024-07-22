@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+body {
+  background-color: lightseagreen;
+}
+
+nav .active {
+  color: lightcoral;
+  background: #000;
+  border-radius: 30px;
+}
+
+aside nav .active {
+  color: lightgreen;
+  background: #000;
+  border-radius: 30px;
+}
